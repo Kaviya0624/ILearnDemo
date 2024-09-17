@@ -16,6 +16,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -23,6 +24,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Baseclass {
 	
@@ -45,7 +48,7 @@ public class Baseclass {
 			if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
 			{
 				DesiredCapabilities capabilities=new DesiredCapabilities();
-				
+			
 				//os
 				if(os.equalsIgnoreCase("windows"))
 				{
@@ -69,7 +72,18 @@ public class Baseclass {
 				//browser
 				switch(br.toLowerCase())
 				{
-				case "chrome": capabilities.setBrowserName("chrome"); break;
+				case "chrome": 
+					 WebDriverManager.chromedriver().setup();
+					 
+					  ChromeOptions chromeOptions = new ChromeOptions();
+					  chromeOptions.addArguments("--disable-dev-shm-usage");
+					  chromeOptions.addArguments("--no-sandbox");
+					  chromeOptions.addArguments("--disable-gpu");
+						capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+					capabilities.setBrowserName("chrome"); 
+					break;
+					
+					
 				case "edge": capabilities.setBrowserName("MicrosoftEdge"); break;
 				case "firefox": capabilities.setBrowserName("firefox"); break;
 				default: System.out.println("No matching browser"); return;

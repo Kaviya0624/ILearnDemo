@@ -8,69 +8,15 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Master</th></tr>
-<tr><td><a href="#t0">Windows-Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">287,905</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Windows-Edge</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">377,836</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">665,741</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Grid</th></tr>
+<tr><td><a href="#t0">Linux-Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">89,906</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Linux-Firefox</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">318,728</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">408,634</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Master</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Windows-Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC007_EndtoEndTest</td><td><a href="#m0">endToendTest</a></td><td rowspan="1">1726491066054</td><td rowspan="1">22711</td></tr><tr><th colspan="4">Windows-Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC006_PaymentPage</td><td><a href="#m1">SearchPage</a></td><td rowspan="1">1726490835644</td><td rowspan="1">206441</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Windows-Edge &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC006_PaymentPage</td><td><a href="#m2">SearchPage</a></td><td rowspan="1">1726491118618</td><td rowspan="1">210554</td></tr><tr><th colspan="4">Windows-Edge &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC007_EndtoEndTest</td><td><a href="#m3">endToendTest</a></td><td rowspan="1">1726491358840</td><td rowspan="1">109205</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Grid</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Linux-Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC007_EndtoEndTest</td><td><a href="#m0">endToendTest</a></td><td rowspan="1">1726575540193</td><td rowspan="1">52540</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Linux-Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC007_EndtoEndTest</td><td><a href="#m1">endToendTest</a></td><td rowspan="1">1726575706946</td><td rowspan="1">177682</td></tr></tbody>
 </table>
-<h2>Windows-Chrome</h2><h3 id="m0">testCases.TC007_EndtoEndTest#endToendTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;http://demo.itlearn360.com/courses/software-testing-academy/&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;...&lt;/a&gt; is not clickable at point (185, 605). Other element would receive the click: &lt;a href=&quot;tel:
-...&quot;&gt;+1-800-543-5571&lt;/a&gt;
-  (Session info: chrome=128.0.6613.138)
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e402abbe04fa1bd5f9a1684f43ab502, clickElement {id=f.B1CA26B3543A70DC0A96DFD07D96D35C.d.90E2FC6E217CD3E31CCF2B826FA0E4E3.e.160}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65225/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (7e402abbe04fa1bd5f9a1684f43ab502)] -&gt; xpath: //a[normalize-space()=&apos;View All Courses&apos;]]
-Session ID: 7e402abbe04fa1bd5f9a1684f43ab502
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-	at pageObjects.PaymentPage.clickAllCourse(PaymentPage.java:40)
-	at testCases.TC007_EndtoEndTest.endToendTest(TC007_EndtoEndTest.java:52)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.TC006_PaymentPage#SearchPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Windows-Edge</h2><h3 id="m2">testCases.TC006_PaymentPage#SearchPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;card-element&quot;]/div/iframe&quot;}
-  (Session info: MicrosoftEdge=128.0.2739.79)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d91aad95555419d77b1e7274c4c6917e, findElement {using=xpath, value=//*[@id=&quot;card-element&quot;]/div/iframe}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65462}, msedge: {msedgedriverVersion: 128.0.2739.79 (9fa544bdb74f..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65462/devtoo..., se:cdpVersion: 128.0.2739.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d91aad95555419d77b1e7274c4c6917e
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1104)
-	at pageObjects.PaymentPage.pay(PaymentPage.java:67)
-	at testCases.TC006_PaymentPage.SearchPage(TC006_PaymentPage.java:41)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testCases.TC007_EndtoEndTest#endToendTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Linux-Chrome</h2><h3 id="m0">testCases.TC007_EndtoEndTest#endToendTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Linux-Firefox</h2><h3 id="m1">testCases.TC007_EndtoEndTest#endToendTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

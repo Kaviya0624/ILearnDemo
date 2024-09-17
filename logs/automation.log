@@ -1,80 +1,27 @@
-18:45:39.070 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
+15:47:13.502 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\Grid-Docker.xml
 
-18:51:00.922 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
+16:29:05.446 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\Grid-Docker.xml
 
-18:54:53.647 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-18:58:43.870 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-19:06:06.266 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-19:46:08.469 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-19:47:07.143 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-19:47:39.449 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-19:48:22.549 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-19:49:21.225 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-19:49:52.937 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-19:50:34.215 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-19:51:56.236 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-19:52:43.956 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
-
-19:55:10.191 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+16:35:31.252 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\ADMIN\eclipse-workspace\ILearnDemo\Master.xml
 
-19:58:32.938 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
-19:58:49.006 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
-19:58:49.011 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
-19:59:02.713 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
-19:59:02.716 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
-19:59:08.440 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
-19:59:08.444 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
-19:59:22.368 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
-19:59:22.371 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
-19:59:36.266 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
-13:05:55.112 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\ParallelTesting.xml
+16:37:18.249 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\Grid-Docker.xml
 
-14:46:12.159 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\GroupTesting.xml
+16:44:32.567 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\Grid-Docker.xml
 
-14:49:36.693 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\GroupTesting.xml
+17:01:30.091 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\Grid-Docker.xml
 
-14:50:21.040 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\GroupTesting.xml
+17:07:54.561 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\Grid-Docker.xml
 
-14:52:32.148 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
-14:52:47.277 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
-14:52:47.279 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
-14:53:01.284 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
-14:53:01.286 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
-14:53:06.346 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
-14:53:06.349 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
-14:53:20.884 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
-14:53:20.887 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
-14:53:34.723 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
-18:16:42.157 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\Grid-Standalone.xml
+17:20:05.055 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\Grid-Docker.xml
+
+17:30:53.967 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\Grid-Docker.xml
 
