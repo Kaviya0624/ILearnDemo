@@ -73,13 +73,13 @@ public class Baseclass {
 				switch(br.toLowerCase())
 				{
 				case "chrome": 
-					 WebDriverManager.chromedriver().setup();
-					 
-					  ChromeOptions chromeOptions = new ChromeOptions();
-					  chromeOptions.addArguments("--disable-dev-shm-usage");
-					  chromeOptions.addArguments("--no-sandbox");
-					  chromeOptions.addArguments("--disable-gpu");
-						capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+//					 WebDriverManager.chromedriver().setup();
+//					 
+//					  ChromeOptions chromeOptions = new ChromeOptions();
+//					  chromeOptions.addArguments("--disable-dev-shm-usage");
+//					  chromeOptions.addArguments("--no-sandbox");
+//					  chromeOptions.addArguments("--disable-gpu");
+//						capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
 					capabilities.setBrowserName("chrome"); 
 					break;
 					
