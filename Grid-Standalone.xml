@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master" thread-count="5">
+	
+	  <listeners>
+	  <listener class-name="utilities.ExtentReportManager" />
+  </listeners>
+	
+	
+	
+  <test name="Windows-Chrome">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+ <!--  <class name="testCases.TC001_HomePage"/> 
+      	 <class name="testCases.TC002_LoginPage"/> 
+        <class name="testCases.TC003_DashBoardPage"/> 
+         <class name="testCases.TC004_LoginDDT"/> 
+          <class name="testCases.TC005_SearchPage"/>  -->  
+          <class name = "testCases.TC006_PaymentPage"/>
+          <class name = "testCases.TC007_EndtoEndTest"/>
+    </classes>
+   </test> 
+    
+ <test name="Windows-Edge">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="edge"/>   
+     <classes>
+ <!--  <class name="testCases.TC001_HomePage"/> 
+      	 <class name="testCases.TC002_LoginPage"/> 
+        <class name="testCases.TC003_DashBoardPage"/> 
+         <class name="testCases.TC004_LoginDDT"/> 
+          <class name="testCases.TC005_SearchPage"/>  -->  
+          <class name = "testCases.TC006_PaymentPage"/>
+          <class name = "testCases.TC007_EndtoEndTest"/>
+    </classes>
+    
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

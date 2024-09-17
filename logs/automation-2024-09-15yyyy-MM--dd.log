@@ -1,0 +1,59 @@
+17:16:23.613 [main] INFO  testCases.TC004_LoginDDT - Login attempt completed for user: Demo12. Expected result: Valid
+17:16:23.648 [main] INFO  testCases.TC004_LoginDDT - Login successful as expected for valid credentials.
+17:16:27.658 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:16:27.661 [main] INFO  testCases.TC004_LoginDDT - ***** Starting TC_004_LoginDDT ******
+17:16:39.430 [main] INFO  testCases.TC004_LoginDDT - Login attempt completed for user: demo7754. Expected result: Invalid
+17:16:39.431 [main] INFO  testCases.TC004_LoginDDT - Login failed as expected with invalid credentials.
+17:16:39.431 [main] INFO  testCases.TC004_LoginDDT - Navigating back to login page after failed login attempt.
+17:16:43.238 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:16:43.242 [main] INFO  testCases.TC004_LoginDDT - ***** Starting TC_004_LoginDDT ******
+17:16:55.293 [main] INFO  testCases.TC004_LoginDDT - Login attempt completed for user: admin. Expected result: Invalid
+17:16:55.293 [main] INFO  testCases.TC004_LoginDDT - Login failed as expected with invalid credentials.
+17:16:55.293 [main] INFO  testCases.TC004_LoginDDT - Navigating back to login page after failed login attempt.
+17:17:01.126 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:19:58.296 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
+
+17:20:47.866 [main] INFO  testCases.TC004_LoginDDT - ***** Starting TC_004_LoginDDT ******
+17:21:06.249 [main] INFO  testCases.TC004_LoginDDT - Login Status (Logo Found): false
+17:21:06.249 [main] INFO  testCases.TC004_LoginDDT - Login failed as expected with invalid credentials.
+17:21:16.217 [main] INFO  testCases.TC004_LoginDDT - Navigating back to login page after failed login attempt.
+17:21:16.221 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:21:16.229 [main] INFO  testCases.TC004_LoginDDT - ***** Starting TC_004_LoginDDT ******
+17:21:28.703 [main] INFO  testCases.TC004_LoginDDT - Login Status (Logo Found): false
+17:21:28.703 [main] INFO  testCases.TC004_LoginDDT - Login failed as expected with invalid credentials.
+17:21:41.969 [main] INFO  testCases.TC004_LoginDDT - Navigating back to login page after failed login attempt.
+17:21:41.969 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:21:41.975 [main] INFO  testCases.TC004_LoginDDT - ***** Starting TC_004_LoginDDT ******
+17:21:57.305 [main] INFO  testCases.TC004_LoginDDT - Login Status (Logo Found): true
+17:21:57.305 [main] INFO  testCases.TC004_LoginDDT - Login successful with valid credentials.
+17:22:00.834 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:22:00.839 [main] INFO  testCases.TC004_LoginDDT - ***** Starting TC_004_LoginDDT ******
+17:22:12.494 [main] INFO  testCases.TC004_LoginDDT - Login Status (Logo Found): false
+17:22:12.494 [main] INFO  testCases.TC004_LoginDDT - Login failed as expected with invalid credentials.
+17:22:15.320 [main] INFO  testCases.TC004_LoginDDT - Navigating back to login page after failed login attempt.
+17:22:15.321 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:22:15.324 [main] INFO  testCases.TC004_LoginDDT - ***** Starting TC_004_LoginDDT ******
+17:22:26.455 [main] INFO  testCases.TC004_LoginDDT - Login Status (Logo Found): false
+17:22:26.455 [main] INFO  testCases.TC004_LoginDDT - Login failed as expected with invalid credentials.
+17:22:33.133 [main] INFO  testCases.TC004_LoginDDT - Navigating back to login page after failed login attempt.
+17:22:33.133 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:26:27.555 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
+
+17:27:06.467 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
+17:27:27.253 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:27:27.259 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
+17:27:44.124 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:27:44.128 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
+17:27:54.746 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:27:54.752 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
+17:28:11.683 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+17:28:11.688 [main] INFO  testCases.TC004_LoginDDT - ***** stating TC_004_LoginDDT ******
+17:28:45.031 [main] INFO  testCases.TC004_LoginDDT - ***** Finished TC_004_LoginDDT ******
+18:39:26.377 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
+
+18:41:11.636 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\ILearnDemo\testng.xml
+
