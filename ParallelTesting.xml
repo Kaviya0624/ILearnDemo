@@ -8,7 +8,7 @@
 	
  <test name="chrometest">
 	
-	<parameter name="os" value = "windows" />
+	<parameter name="os" value = "Windows" />
 	<parameter name="browser" value = "chrome" />
 	
     <classes>
@@ -28,7 +28,7 @@
   
   <test name="edgetest">
 	
-	<parameter name="os" value = "windows" />
+	<parameter name="os" value = "Windows" />
 	<parameter name="browser" value = "edge" />
 	
     <classes>

@@ -52,7 +52,7 @@ public class Baseclass {
 				//os
 				if(os.equalsIgnoreCase("windows"))
 				{
-					capabilities.setPlatform(Platform.WINDOWS);
+					capabilities.setPlatform(Platform.WIN10);
 				}
 				else if(os.equalsIgnoreCase("linux"))
 				{
