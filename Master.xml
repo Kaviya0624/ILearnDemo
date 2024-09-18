@@ -12,7 +12,7 @@
 	
 	
 	
-	<parameter name="os" value = "windows" />
+	<parameter name="os" value = "Windows" />
 	<parameter name="browser" value = "chrome" />
 	
     <classes>
